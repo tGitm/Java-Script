@@ -6,9 +6,9 @@
 </head>
 <body>
     <p id="text"></p>
-    <script src="home.js"></script>
+    <!--<script src="home.js"></script> -->
     <script>
-        let students = [
+        let students = `[
         {
         "name": "Tim",
         "age": 20,
@@ -20,8 +20,8 @@
         "height": 173
 
     }
-        ]
-        console.log(students);
+        ]`
+        console.log(JSON.parse(students)[0]);
     </script>
 </body>
 </html>
