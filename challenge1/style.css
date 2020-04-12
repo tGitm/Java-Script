@@ -1,0 +1,18 @@
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+.container-1 {
+    border: 1px solid #000;
+}
+.flex-box-containter-1 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-box-containter-1 div {
+    display: flex;
+    padding: 10px;
+}
